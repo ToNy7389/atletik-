@@ -1,0 +1,150 @@
+/* GENERAL */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.section {
+  display: none;
+}
+.active {
+  display: block;
+}
+
+/* CABECERA GENERAL */
+.top-bar {
+  background-color: #32ff57;
+  padding: 10px;
+}
+.social-links {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.social-links a {
+  color: #006400;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.social-links a:hover {
+  text-decoration: underline;
+}
+.search-area {
+  margin: 15px 0;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3347.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.search-area input {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 2px solid #006400;
+}
+.icon {
+  font-size: 1.5rem;
+  color: #006400;
+  cursor: pointer;
+}
+.icon:hover {
+  color: #004d00;
+}
+
+/* CONTENIDO GENERAL */
+h2 {
+  color: #006400;
+}
+.buttons {
+  margin: 20px 0;
+}
+.buttons button {
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: #fff;
+}
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* NOTIFICACIONES ESTILO WHATSAPP */
+.chat-app {
+  display: flex;
+  height: 80vh;
+}
+.chat-list {
+  flex: 1;
+  background-color: #f1f1f1;
+  border-right: 2px solid #006400;
+  padding: 20px;
+  text-align: left;
+}
+.chat-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.chat-item:hover {
+  background-color: #e0ffe0;
+}
+.chat-area {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mensajes {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+.mensaje {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+.recibido {
+  background-color: #d1f7c4;
+  text-align: left;
+}
+.enviado {
+  background-color: #a3d8ff;
+  text-align: right;
+}
+.chat-input {
+  padding: 15px;
+  border-top: 1px solid #ccc;
+}
+.chat-input input {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #006400;
+  width: 95%;
+}
+
+/* CARRITO */
+.carrito-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 30px;
+}
+.carrito-descripcion {
+  max-width: 500px;
+  text-align: left;
+}
+.carrito-imagen {
+  max-width: 500px;
+}
+.carrito-imagen img {
+  max-width: 100%;
+  border-radius: 8px;
+}
